@@ -37,6 +37,16 @@ html {
     transform: scale(1.5)
   }
 
+  #style {
+    color: black;
+    transition: 0.5s;
+  }
+
+  #style:hover {
+    box-shadow: -10px 10px 10px black;    
+    transform: translate(10px -10px);
+  }
+
   #instagram,
   #codepen,
   #github,
