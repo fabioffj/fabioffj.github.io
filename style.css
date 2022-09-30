@@ -1,24 +1,30 @@
 html {
     text-align: center;
-    background: white;
     font-family: 'Times New Roman', Times, serif;
     color: #18191f;
     font-size: x-large;
-    width: 900px;
+    width: 100%;
   }
 
-  
-
-  .projects {
-    width: 33%;
+  #linha1 {
+    display: inline-flex;
   }
 
-#instagram,
-#codepen,
-#github,
-#facebook {
-    font-size: 500%;
-    color: #18191f;
-    margin: 5%;    
-    text-shadow: 0 0 50px whitesmoke;
+  #linha2 {
+    display: inline-flex;
+    text-decoration: none;
   }
+
+  #roupas {
+    
+  }
+
+  #instagram,
+  #codepen,
+  #github,
+  #facebook {
+      font-size: 500%;
+      color: #18191f;
+      margin: 5%;    
+      text-shadow: 0 0 50px whitesmoke;
+    }

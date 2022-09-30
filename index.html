@@ -10,24 +10,55 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div>
-        <h1>Hi, I'm fabioffj (a.k.a Zero), and these are my projects:</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <h1>Hi, I'm fabioffj (a.k.a Zero), and these are my projects:</h1>
+    <div id="linha1">
+        <div>
+            <h3>Valhalla's Feast</h3>
+            <a href="https://fabioffj.github.io/odin-recipes/"><img src="../odin-recipes/images/valhallas feast.webp" alt="Valhalla's Feast"></a>
+            <p>My first project as future programmer, from the lessons of The Odin Project.</p>
+        </div>
+        <div>
+            <h3>LGPD</h3>
+            <div id="list">
+                <form>
+                <ol>    
+                  <p>
+                    <li>Do you know what GDPR and LGPD each stand for?</li>
+                  </p>
+                    <input type="radio" id="a" name="parceiros" value="100">
+                    <label for="a">Yes!</label><br>
+                    <input type="radio" id="b" name="parceiros" value="0">
+                    <label for="b">No.</label><br>
+                    <input type="radio" id="c" name="parceiros" value="50">
+                    <label for="c">I think I can guess.</label><br>                    
+                  <p>Your budget is: <input type="text" id="total" value="0"> % of knowledge!</p>  
+                </ol>
+                </form>
+                <a href="https://fabioffj.github.io/lgpd/"><input type="button" value="I wanna know more!"></a>
+              </div>
+              <script  src="./script.js"></script>
+            <p>My budget sheet for brazillian's GDPR law called Lei Geral de Proteção de Dados</p>
+        </div>
     </div>
-    <div id="projects">
-        <div class="projects">
-            <a href="https://fabioffj.github.io/odin-recipes/"><img src="./Imagens/odin recipe.jpg" alt=""></a>
+    <div id="linha2">
+        <a style="text-decoration:none;" href="https://fabioffj.github.io/lojinha/">
+            <div id="roupas">
+                <h3>Men's Wear</h3>            
+                <p>A bunch of clothes I intend to sell on a very low price.</p>
+            </div>
+        </a>        
+        <div>
+            <h3>Men Style</h3>
+            <p>That's just another way of showing the outfits.</p>
         </div>
-        <div class="projects">
-            <a href="https://fabioffj.github.io/lgpd/"><img src="./Imagens/lgpd.jpg" alt=""></a>
-        </div>
-        <div class="projects">
-            <a href="https://fabioffj.github.io/lojinha/"><img src="./Imagens/roupa de homem.jpg" alt=""></a>
-        </div>
-    </div>    
+
+    </div>
+    
     <div>
         <a href="https://instagram.com/jaenischfabio"><i class="fa fa-instagram" id="instagram"></i></a>
         <a href="https://codepen.io/fabioffj"><i class="fa fa-codepen" id="codepen"></i></a>
-        <a href="https://fabioffj.github.io/"><i class="fa fa-github-square github" id="github"></i></i></a>
+        <a href="https://github.com/fabioffj"><i class="fa fa-github-square github" id="github"></i></i></a>
         <a href="https://facebook.com/fabio.jaenisch"><i class="fa fa-facebook-square" id="facebook"></i></a>
     </div>
 </body>
