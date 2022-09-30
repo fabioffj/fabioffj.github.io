@@ -23,6 +23,11 @@ html {
     width: 75%;
   }
 
+  #list {
+    padding: 1%;
+    margin: 5%;
+  }
+
   #valhalla {
     padding: 1%;
     margin: 5%;
