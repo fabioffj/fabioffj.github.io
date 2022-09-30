@@ -4,6 +4,7 @@ html {
     color: #18191f;
     font-size: x-large;
     width: 100%;
+    cursor: default;
   }
 
   #linha1 {
