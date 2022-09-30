@@ -12,11 +12,29 @@ html {
 
   #linha2 {
     display: inline-flex;
-    text-decoration: none;
   }
 
-  #roupas {
-    
+  .coluna {
+    width: 50%;
+  }
+
+  #img {
+    width: 75%;
+  }
+
+  #roupa {
+    background: linear-gradient(to bottom right, rgb(24, 24, 24),rgb(36, 36, 36), rgb(53, 53, 53), rgb(73, 73, 73));
+    color: antiquewhite;
+    border: 1px;
+    border-color: #18191f;
+    border-radius: 5px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    padding: 5%;
+  }
+
+  #roupa:hover {
+    transform: scale(1.5)
   }
 
   #instagram,
