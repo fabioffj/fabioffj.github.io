@@ -69,13 +69,6 @@ html {
   #icons {
     padding: 1%;
     margin: 5%;
+    color: #18191f;   
+    text-shadow: 0 0 50px whitesmoke;
   }
-
-  #instagram,
-  #codepen,
-  #github,
-  #facebook {      
-      color: #18191f;
-      margin: 5%;    
-      text-shadow: 0 0 50px whitesmoke;
-    }
