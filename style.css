@@ -3,20 +3,27 @@ html {
     font-family: 'Times New Roman', Times, serif;
     color: #18191f;
     font-size: x-large;
-    width: 100%;
-    cursor: default;
+    cursor: default;    
+  }
+
+  h1 {
+    width: 90%;
   }
 
   #linha1 {
     display: inline-flex;
+    width: 95%;
   }
 
   #linha2 {
     display: inline-flex;
+    width: 95%;
   }
 
   .coluna {
     width: 50%;
+    padding: 5%;
+    margin: 10%;
   }
 
   #img {
@@ -26,6 +33,7 @@ html {
   #list {
     padding: 1%;
     margin: 5%;
+    text-align: left;
   }
 
   #cell {
@@ -41,8 +49,8 @@ html {
     border-radius: 5px;
     transition-property: transform;
     transition-duration: 0.5s;
+    text-decoration: none;
     padding: 5%;
-    margin: 10%;
   }
 
   #roupa:hover {
@@ -53,7 +61,6 @@ html {
     color: black;
     transition: 0.5s;
     padding: 5%;
-    margin: 10%;
   }
 
   #style:hover {
