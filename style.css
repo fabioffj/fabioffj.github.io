@@ -15,10 +15,6 @@ p {
   margin: 10px;
 }
 
-img {
-  max-width: 60%;
-}
-
 img.center {
   display: block;
   margin: 0 auto;
