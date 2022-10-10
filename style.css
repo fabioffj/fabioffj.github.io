@@ -1,41 +1,31 @@
 body {
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  color: #18191f;
-  font-size: x-large;
   cursor: default;
 }
 
-.linha {
-  display: inline-flex;
-  flex-wrap: wrap;
+.row {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 
-.coluna {
-  max-width: 400px;
-  max-height: 500px;
-  margin: 20px;
+a {
+  text-decoration: none;
 }
 
-.coluna > div {
-  min-width: 250px;
-  min-height: 250px;
+p {
+  margin: 10px;
 }
 
 img {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 60%;
 }
 
-#list {
-  text-align: left;
+img.center {
+  display: block;
+  margin: 0 auto;
 }
 
 #roupa {
   background: linear-gradient(to bottom right, rgb(24, 24, 24),rgb(36, 36, 36), rgb(53, 53, 53), rgb(73, 73, 73));
-  color: antiquewhite;
-  border: 1px;
-  border-color: #18191f;
   border-radius: 5px;
   transition-property: transform;
   transition-duration: 0.5s;
@@ -43,16 +33,11 @@ img {
   max-width: 250px;
 }
 
-a {
-  text-decoration: none;
-}
-
 #roupa:hover {
   transform: scale(1.5)
 }
 
 #style {
-  color: black;
   transition: 0.5s;
   padding: 20px;
   max-width: 250px;
@@ -61,18 +46,4 @@ a {
 #style:hover {
   box-shadow: -10px 10px 10px black;    
   transform: translate(10px -10px);
-}
-
-#icons {
-  padding: 20px;
-  margin: 10px;
-}
-
-#instagram,
-#codepen,
-#github,
-#facebook {      
-    color: #18191f;
-    margin: 20px;    
-    text-shadow: 0 0 50px whitesmoke;
 }

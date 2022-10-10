@@ -6,71 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olá Mundo!</title>
     <link rel="icon" type="image/x-icon" href="./Imagens/favicon.jpg">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Hi, I'm fabioffj (a.k.a Zero), and these are my projects:</h1>
-        <div class="linha">
-            <div class="coluna">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align: center;">Olá, eu sou fabioffj (também conhecido como Zero) e estes são os meus projetos:</h1>
+            </div>
+        </div>        
+        <div class="row">
+            <div class="col">
                 <div>
-                    <h3>Valhalla's Feast</h3>
-                    <a href="https://fabioffj.github.io/odin-recipes/"><img id="img" src="./Imagens/valhallas feast.webp" alt="Valhalla's Feast"></a>
-                    <p>My first project as future programmer, from the lessons I learned in <strong>The Odin Project</strong>.</p>
+                    <h3 style="text-align: center;">Valhalla's Feast</h3>
+                    <a href="https://fabioffj.github.io/odin-recipes/"><img class="center" src="./Imagens/valhallas feast.webp" alt="Valhalla's Feast"></a>
+                    <p style="text-align: center;" >Meu primeiro projeto como estudante do <strong>The Odin Project</strong>.</p>
                 </div>
             </div>
-            <div class="coluna">
+            <div class="col">
                 <div>
                     <h3>LGPD</h3>
                     <div id="list">
                         <form>
                         <ol>    
                           <p>
-                            <li>Do you know what GDPR and LGPD each stand for?</li>
+                            <li>Você sabe o quer dizer LGPD?</li>
                           </p>
                             <input type="radio" id="a" name="stand" value="100">
-                            <label for="a">Yes!</label><br>
+                            <label for="a">Sim!</label><br>
                             <input type="radio" id="b" name="stand" value="0">
-                            <label for="b">No.</label><br>
+                            <label for="b">Não.</label><br>
                             <input type="radio" id="c" name="stand" value="50">
-                            <label for="c">I think I can guess.</label><br>                    
+                            <label for="c">Eu acho que sei.</label><br>                    
                         </ol>
                         </form>                
                       </div>
-                    <a href="https://fabioffj.github.io/lgpd/"><input type="button" value="I wanna know more!"></a>           
-                    <p>My budget sheet for brazillian's GDPR law called <i>"Lei Geral de Proteção de Dados"</i></p>
+                    <a href="https://fabioffj.github.io/lgpd/"><input type="button" value="Eu quero saber mais!"></a>
+                    <p>Meu site de orçamento para meu Programa de Adequação à <i>"Lei Geral de Proteção de Dados"</i></p>
                 </div>
             </div>
         </div>
         <br>
-        <div class="linha">
-            <div  class="coluna">
-                <div>
-                    <a href="https://fabioffj.github.io/lojinha/">
-                        <div id="roupa">
-                            <h3>Men's Wear</h3>            
-                            <p>A bunch of clothes I intend to sell on a very low price.</p>
-                        </div>
-                    </a>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div  class="col">
+                <div id="roupa">
+                    <a style="text-decoration: none; color: antiquewhite;" href="https://fabioffj.github.io/lojinha/"><h3 style="text-align: center;">Roupa de Homem</h3><p>Um brechó de roupas masculinas que pretendo vender a um preço acessível.</p></a>
                 </div>
+            </div>           
+            <div class="col" id="style">
+                <a style="text-decoration: none; color: black;" href="https://fabioffj.github.io/lojinha2/"><h3>Men Style</h3><p>Este é outro layout do brechó.</p></a>
             </div>
-            <div class="coluna">
-                <div>
-                    <a href="https://fabioffj.github.io/lojinha2/">
-                        <div id="style">
-                            <h3>Men Style</h3>
-                            <p>That's just another way of showing the outfits.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            <div class="col-sm-2"></div>
         </div>
-        <div id="icons">
-            <a href="https://instagram.com/jaenischfabio"><i id="instagram">Instagram</i></a>
-            <a href="https://codepen.io/fabioffj"><i id="codepen">Codepen</i></a>
-            <a href="https://github.com/fabioffj"><i  id="github">Github</i></a>
-            <a href="https://facebook.com/fabio.jaenisch"><i id="facebook">Facebook</i></a>
+        <div class="row" id="icons">
+            <div class="col">
+                <a href="https://instagram.com/jaenischfabio"><img src="./Imagens/instgram.jpg" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="https://codepen.io/fabioffj"><img src="./Imagens/codepen.jpg" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="https://github.com/fabioffj"><img src="./Imagens/github.jpeg" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="https://facebook.com/fabio.jaenisch"><img src="./Imagens/facebook.png" alt=""></a>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
