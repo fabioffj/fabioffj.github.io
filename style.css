@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 p {
@@ -49,8 +49,7 @@ img.center {
 #github,
 #facebook {
     font-size: 500%;
-    color: rgb(0, 0, 0);    
-    margin: 5%;
+    color: rgb(0, 0, 0);
     animation: animate 3s linear infinite;
     text-shadow: 0 0 50px rgb(250, 239, 226), 0 0 100px #fcfae8, 0 0 150px #fffbec,
       0 0 200px #fff9e7;
