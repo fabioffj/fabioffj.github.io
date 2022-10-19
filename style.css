@@ -3,7 +3,7 @@ body {
 }
 
 .row {
-  margin-top: 5vw;
+  margin-top: 7vw;
   margin-bottom: 5vw;
 }
 
@@ -57,4 +57,13 @@ img.center {
 
 img {
   max-width: 90%;
+}
+
+#icons {
+  margin: 10vw 0px 10vw 0px;
+}
+
+.col {  
+  display: flex;
+  justify-content: center;
 }
