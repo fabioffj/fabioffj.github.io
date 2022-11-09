@@ -37,6 +37,7 @@ img.center {
   transition: 0.5s;
   padding: 20px;
   max-width: 250px;
+  max-height: 200px;
 }
 
 #style:hover {
@@ -66,4 +67,24 @@ img {
 .col {  
   display: flex;
   justify-content: center;
+}
+
+#cool {
+  background-color: #1F2937;
+  justify-content: center;
+}
+
+#zeroSlash {
+  padding: 1vw;
+}
+
+#valhalla {
+  text-align: center;
+  background-color: #333;
+  padding: 1vw;
+  font-family: consolas !important;
+}
+
+#valhalla img {
+  max-width: 10vw;
 }
