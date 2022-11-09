@@ -74,6 +74,10 @@ img {
   justify-content: center;
 }
 
+#cool img {
+  justify-content: space-around;
+}
+
 #zeroSlash {
   padding: 1vw;
 }
